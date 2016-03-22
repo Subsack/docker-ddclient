@@ -1,8 +1,8 @@
 ##DDClient
 
-DDclient is a Perl client used to update dynamic DNS entrie
+DDclient is a Perl client used to update dynamic DNS entries.
 
-This image for ddclient is based on Linuxserver.io's baseimage/template. It has Linuxservers.io's standard container features such as auto-updates and the ability to set UID and GID.
+This image for ddclient is based on Linuxserver.io's baseimage/template. It has the Linuxservers.io's standard container features such as auto-updates and the ability to set UID and GID.
 
 ## Usage
 
