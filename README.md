@@ -1,6 +1,8 @@
-Docker image for ddclient based on Linuxserver.io's baseimage/template. 
+##DDClient
 
-I use a lot of their images and needed ddclient containerized as well, I've tried to use as much as I could of their practices making this image. This means it has Linuxservers.io standard container features such as auto-updates and the ability to set UID and GID.
+DDclient is a Perl client used to update dynamic DNS entrie
+
+This image for ddclient is based on Linuxserver.io's baseimage/template. It has Linuxservers.io's standard container features such as auto-updates and the ability to set UID and GID.
 
 ## Usage
 
