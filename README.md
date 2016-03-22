@@ -6,6 +6,8 @@ This image for ddclient is based on Linuxserver.io's baseimage/template. It has 
 
 ## Usage
 
+NOTE: Your pid file has to be located under `/var/run/ddclient/ddclient.pid` for this to work properly with the UID/GID feature. This is set in ddclient.conf, you can check the generated sample if you are unsure.
+
 ```
 docker create \
 	--name=ddclient \
