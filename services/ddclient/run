@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Starting ddclient"
+exec /sbin/setuser abc /usr/sbin/ddclient -foreground
