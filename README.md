@@ -9,7 +9,7 @@ This image for ddclient is based on Linuxserver.io's baseimage/template. It has 
 NOTE: Your pid file has to be located under `/var/run/ddclient/ddclient.pid` for this to work properly with the UID/GID feature. This is set in ddclient.conf, you can check the generated sample if you are unsure.
 
 ```
-docker create \
+docker run -d \
 	--name=ddclient \
 	-e PUID=<UID> -e PGID=<GID> \
 	-v </path/to/config>:/config \
@@ -18,7 +18,7 @@ docker create \
 
 **Parameters**
 
-* `-v </path/to/config>:/config` - ddclient.conf location, if empty a sample config will be created*
+* `-v </path/to/config>:/config` - ddclient.conf location, if empty a sample config will be created
 * `-e PGID=` for for GroupID - see below for explanation
 * `-e PUID=` for for UserID - see below for explanation
 
